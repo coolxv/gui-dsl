@@ -1,0 +1,8 @@
+// 提示文件帮助 Visual Studio IDE 解释 Visual C++ 标识符,
+// 如函数和宏的名称。
+// 有关详细信息，请参见 https://go.microsoft.com/fwlink/?linkid=865984
+#define ORMAPP(_TABLE_NAME_, __VA_ARGS__) private: friend class BOT_ORM_Impl::InjectionHelper; template <typename FN> inline decltype (auto) __Accept (FN fn) { return fn (__VA_ARGS__); } template <typename FN> inline decltype (auto) __Accept (FN fn) const { return fn (__VA_ARGS__); } constexpr static const char *__FieldNames = #__VA_ARGS__; constexpr static const char *__TableName = _TABLE_NAME_;
+// 提示文件帮助 Visual Studio IDE 解释 Visual C++ 标识符,
+// 如函数和宏的名称。
+// 有关详细信息，请参见 https://go.microsoft.com/fwlink/?linkid=865984
+#define ORMAP(_TABLE_NAME_, __VA_ARGS__) private: friend class BOT_ORM_Impl::InjectionHelper; template <typename FN> inline decltype (auto) __Accept (FN fn) { return fn (__VA_ARGS__); } template <typename FN> inline decltype (auto) __Accept (FN fn) const { return fn (__VA_ARGS__); } constexpr static const char *__FieldNames = #__VA_ARGS__; constexpr static const char *__TableName = _TABLE_NAME_;
